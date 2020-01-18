@@ -3,17 +3,32 @@
     "content": [
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
+          "**/*.md",
+          "**/*.yml",
+          "breadcrumb/TOC.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "docs/**",
+          "***/readme.md",
+          "***/license.md"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "images/**"
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.pdf"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "docs/**"
         ]
       }
     ],
